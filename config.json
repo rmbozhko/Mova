@@ -1,0 +1,58 @@
+{
+  "name": "CustomIcons",
+  "css_prefix_text": "",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "5a79eed97fae4b71456036d4c1692013",
+      "css": "star_border",
+      "code": 59392,
+      "src": "material"
+    },
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 62220,
+      "src": "entypo"
+    },
+    {
+      "uid": "f06fe7ff18d1c591bc1183cb3ab105e9",
+      "css": "google",
+      "code": 61856,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3392068839495c421c04eff00fc39cc2",
+      "css": "person",
+      "code": 59393,
+      "src": "material"
+    },
+    {
+      "uid": "5d4f6620d71883b47c2d73eaf19e2fba",
+      "css": "library_books",
+      "code": 59394,
+      "src": "material"
+    },
+    {
+      "uid": "53c977df16b09e3f7700a27ec90c43dc",
+      "css": "stopwatch",
+      "code": 59395,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "a42812e03059244a58cd9f15efd1a394",
+      "css": "info_outline",
+      "code": 59396,
+      "src": "material"
+    },
+    {
+      "uid": "16f2e72c8abede7252db03c3361fd2f0",
+      "css": "notifications_active",
+      "code": 59397,
+      "src": "material"
+    }
+  ]
+}
