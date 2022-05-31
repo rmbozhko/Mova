@@ -5,6 +5,41 @@ class NotificationPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        leading: GestureDetector(
+          child: IconButton(
+            icon: Icon(
+              Icons.menu_sharp,
+              color: Colors.white,
+              size: 45.0,
+            ),
+            onPressed: () => print("menu is invoked"),
+          ),
+        ),
+        title: Center(
+          child: Text(
+            "Нагадування",
+            style: TextStyle(
+              fontSize: 25.0,
+            ),
+          ),
+        ),
+        actions: [
+          GestureDetector(
+            child: IconButton(
+              padding: const EdgeInsets.only(right: 4.0),
+              icon: Icon(
+                Icons.home,
+                color: Colors.yellow[600],
+                size: 40.0,
+              ),
+              onPressed: () => print("home is invoked"),
+            ),
+          ),
+        ],
+      ),
+      body: null,
+    );
   }
 }
