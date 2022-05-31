@@ -26,16 +26,14 @@ class AuthorizationPage extends StatelessWidget {
           )
         ),
         actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 4.0),
-            child: GestureDetector(
-              child: IconButton(
-                icon: Icon(
-                  Icons.home,
-                  color: Colors.yellow[600],
-                  size: 40.0,
-                ), onPressed: () => print("home is invoked"),
-              ),
+          GestureDetector(
+            child: IconButton(
+              padding: const EdgeInsets.only(right: 4.0),
+              icon: Icon(
+                Icons.home,
+                color: Colors.yellow[600],
+                size: 40.0,
+              ), onPressed: () => print("home is invoked"),
             ),
           )
         ],
